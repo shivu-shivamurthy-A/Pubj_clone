@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    padding: 0px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: sticky;
+    top: 0;
+}
+
+header nav div img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-1 :nth-first-child {
+    color: orange;
+}
+
+.nav-1 p {
+    color: gray;
+}
+
+.nav-1 p:hover {
+    transition-duration: .5s;
+    color: #fff;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav div {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav div button {
+    padding: 24.5px 10px;
+    font-size: 1.2em;
+    font-weight: 800;
+    height: 100%;
+    color: rgb(45, 44, 44);
+    background-color: rgb(235, 154, 33);
+    /* border-right: 1px solid black ; !important */
+    border: none;
+
+}
+
+.nav-2 ion-icon {
+    font-size: 1.8em;
+}
+
+.nav-2 p:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.nav-2 button:hover {
+    background-color: rgb(220, 145, 7);
+    cursor: pointer;
+}
+
+main section .sec-1 {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    background: url("img_\(1\)1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sec-1 h1 {
+    font-size: 100px;
+    font-weight:bolder;
+}
+
+.sec-1 {
+    padding: 10% 5%;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+.sec-1 img:hover{
+    cursor: pointer;
+}
+.sec-1 button:hover{
+    cursor: pointer;
+}
+.b-1 {
+    font-weight: 600;
+    padding: 15px 121px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    background-color: rgb(203, 64, 32);
+    border-radius: 10px;
+}
+
+.b-2 {
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: orange;
+    padding: 15px 127px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+footer{
+    position: sticky;
+    bottom: 0px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    
+}
+footer p{
+    margin-left: 20px;
+    font-size: .9em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer button{
+    padding: 10px 15px 5px 15px;
+    background-color: orange;
+    font-size: 2em;
+}
+.sec-2{
+    height: 115vh;
+    width: 100%     ;
+    background: url("videot_bg.jpg");
+    text-align: center;
+    background-position: center;
+    padding: 100px 150px;
+
+   
+}
+.sec-2 div h1{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(42, 41, 41);
+    padding: 0 0 50px 0;
+    
+}
+.youtube-video{
+    padding: 15px;
+    height: 600px;
+    width: 400px;
+    width: 100%;background-color: crimson;
+    background: url("maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.s-1-f{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.s-1-f img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.s-1-f p{
+    color: #fff;
+    padding-right: 71%;
+    padding-left: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-1-f button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.yt{
+    color: red;
+    height: 50px;
+    width: auto;
+    font-size: 4em;
+    display: inline-block;
+    margin-top: 19%;
+   
+    
+}
+.some{
+    margin-top: 17%;
+    color: #fff;
+    margin-left: -65em;
+    font-weight: 600;
+}
+.some ion-icon {
+
+
+}
+.sec-3{
+    background: url("news_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-3{
+ padding: 100px 150px;
+ text-align: center;
+}
+.sec-3 h1{
+    font-size: 3em;
+    padding: 0 0 30px 0;
+    color: rgb(63, 59, 59);
+    font-weight: 1000;
+}
+.sec-3-div{
+    display: flex;
+    gap: 20px;
+
+}
+.sec-3-img
+{
+    height: 350px;
+    width: 400px;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.sec-3-img p{
+    padding: 10px 10px;
+    text-align: start;
+    color: rgb(109, 106, 106);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.sec-3-img img{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    
+}
+.sec-3 button{
+    padding: 20px 80px;
+    margin-top: 60px;
+    background: transparent;
+    border:2px solid rgb(206, 205, 205);
+}
+.sec-3-img img:hover
+{
+     background-color: gold;
+
+}
+.sec-4{
+    background: url("video_bg.jpg");
+    padding: 100px 0;
+}
+.sec-4 h1{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sec-4-div{
+    display: flex;
+    gap: 20px;
+    padding:0 5px;
+    padding: 0 20px;
+}
+.sec-4-div div{
+    height: 350px;
+    width: 280px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.sec-4-div div img{
+    height: 200px;
+    width: 280px;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+li{
+    
+    font-size: 2em;
+    color: #777474;
+    background-color: rgb(77, 71, 71);
+}
+.sec-4-div div p{
+    padding: 15px 15px;
+    font-size: 1.5em;
+}
+.col{
+    color: gray;
+}
+
+.sec-5{
+    background-color: red;
+    background: url("app_bg.jpg");
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+.sec-5 h1{
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2f2e2e;
+    padding: 10px 0;
+}
+.sec-5 img {
+    height: 70px;
+}
+.foot{
+    background-color: #0b0b0b;
+    text-align: center;
+    color: #777474;
+    padding: 10px 0 30px 0;
+}
+.foot div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.foot img{
+    height: 30px;
+}
+.para{
+    padding: 10px 0;
+    display: inline-block;
+}
+.foot p:hover{
+    color: #fff;
+    cursor: pointer;
+}
